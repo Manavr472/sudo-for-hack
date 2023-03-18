@@ -8,7 +8,7 @@ void main()
 	int gd=DETECT,gm;
 	int x,y,r,x1,y1,p;
 	initgraph(&gd,&gm,"C://TC//BGI");
-	printf("Enter center co-ordinates for circle: ");
+	printf("Enter center points for circle: ");
 	scanf("%d %d",&x1,&y1);
 	printf("Enter radius of the circle: ");
 	scanf("%d",&r);
