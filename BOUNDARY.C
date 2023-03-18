@@ -17,6 +17,7 @@ int fillalgo(int x, int y, int fill, int back)
 	{
 		putpixel(x,y,fill);
 		fillalgo(x+1,y,fill,back);
+fillalgo(x+1,y,fill,back);
 		fillalgo(x-1,y,fill,back);
 		fillalgo(x,y+1,fill,back);
 		fillalgo(x,y-1,fill,back);
