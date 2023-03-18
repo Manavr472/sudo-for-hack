@@ -6,7 +6,7 @@ void main()
 	int gd =DETECT, gm = 0;
 	int x,y;
 	initgraph(&gd,&gm,"C://TURBOC3//BGI");
-	rectangle(100,100,150,150);
+	rectangle(100,100,200,150);
 	flood(105,105,10,0);
 	getch();
 	closegraph();
